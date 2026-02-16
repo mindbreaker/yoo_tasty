@@ -1,0 +1,199 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*display
+ * Custom Style Sheet - Use this file to style your content
+ */
+
+
+@font-face {
+    font-family: 'DroidSerifBoldItalic';
+    src: url('../fonts/DroidSerif-BoldItalic-webfont.eot');
+    src: url('../fonts/DroidSerif-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DroidSerif-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/DroidSerif-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/DroidSerif-BoldItalic-webfont.svg#DroidSerifBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Logo */
+.custom-logo {
+	width: 104px;
+	height: 70px;
+	background-image: url(../../../images/yootheme/logo.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+	#header-responsive .logo { margin-bottom: 10px; }
+}
+
+/* Parallax Effect */
+.box-parallax { background-image: url(../../../images/yootheme/demo/teaser/home_teaser_default.jpg); }
+.box-parallax h1 { font-family: "DroidSerifBoldItalic", "TimesNewRoman", "serif"; }
+
+/* Frontpage Title */
+.bigger-title {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+/* Frontpage List Line */
+ul.line.frontpage > li {
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+ul.line.frontpage > li:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+/* Only Tablets (Portrait) */
+@media (min-width: 768px) and (max-width: 959px) {
+	.frontpage-teaser { height: 280px; }
+	.frontpage-teaser h2 {
+		margin-bottom: 0;
+		line-height: 75px;
+		font-size: 68px;
+	}
+	.frontpage-teaser h4 {
+		line-height: 28px;
+		font-size: 23px;
+	}
+}
+
+/* only phones */
+@media (max-width: 767px) {
+	.frontpage-teaser { height: 150px; }
+	.frontpage-teaser h2 {
+		margin-top: 10px;
+		margin-bottom: 0;
+		line-height: 50px;
+		font-size: 40px;
+	}
+	.frontpage-teaser h4 {
+		margin-top: 0;
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
+
+@media (min-width: 768px) {
+	body#page {
+	background: url(/wp-content/themes/yoo_tasty_wp/images/background/kapuzinerhof-background.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+}
+#menu .fancy {
+	top: 30px;
+}
+
+img.attachment-post-thumbnail  {
+	width: 100%;
+	height: 100%;
+
+}
+
+#page-image {
+	margin: 20px;
+}
+
+#menu {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#bottom-b, footer {
+	background: none repeat scroll 0 0 #FBF6EF;
+	  margin: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#footer {
+	    margin-top: 0px;
+}
+
+#block-main {
+	margin-bottom: 0px;
+}
+
+.overlay, .goto {
+	position: absolute;
+	top: 156px;
+	padding: 3.5px;
+	color: #4E1300;
+}
+
+.overlay {
+	background-color: rgba(255,255,255,0.7);
+	text-transform: uppercase;
+	width: 293px;
+}
+
+.goto {
+	left: 270px;
+}
+
+.description {
+	margin-top: -5px;
+	padding: 15px;
+	width: 270px;
+	min-height: 150px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #dbd2b6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dbd2b6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#dbd2b6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#dbd2b6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#dbd2b6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#dbd2b6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbd2b6',GradientType=0 ); /* IE6-9 */
+}
+
+.description img {
+ bottom: 10px;
+    left: 150px;
+    position: absolute;
+}
+
+#bottom-b {
+	padding: 20px 10px;
+}
+
+.logo img { max-width:100%;}
+
+article a, footer#footer a { color:#A0522D;}
+
+article {
+	text-align: justify;
+}
+
+nav#menu ul > li > a {
+	color: #4E1300;
+}
+nav#menu ul li ul li a {
+	color: #fff;
+}
+
+div#block-main, #header, #bottom-b, footer {
+	background-color:rgba( 251, 246, 239,0.85);
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#footer a:hover {
+    color: #434343 !important;
+}
