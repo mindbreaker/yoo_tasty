@@ -6,5 +6,8 @@
 * @license   http://www.gnu.org/licenses/gpl.html GNU/GPL
 */
 
-// load config    
+// enable WordPress managed document title (WP 4.1+)
+add_theme_support('title-tag');
+
+// load config
 require_once(dirname(__FILE__).'/config.php');
