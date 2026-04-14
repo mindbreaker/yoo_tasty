@@ -3,7 +3,6 @@
 <?php if($this['config']->get('responsive', false)): ?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php endif; ?>
-<title><?php wp_title(); ?></title>
 <link rel="shortcut icon" href="<?php echo $this['path']->url('template:favicon.ico');?>" />
 <link rel="apple-touch-icon-precomposed" href="<?php echo $this['path']->url('template:apple_touch_icon.png'); ?>" /> 
 <?php
